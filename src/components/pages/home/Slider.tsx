@@ -5,13 +5,14 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 
 import 'keen-slider/keen-slider.min.css'
 import { Notice } from "./ForYou"
-import { getText } from "@/utils/getText"
+import { GetText } from "@/utils/getText"
 
 interface NoticeProps {
     notices: Notice[]
 }
 
 export function Slider({ notices }: NoticeProps) {
+
     /* Slider com biblioteca keen slider */
     const [sliderRef, instanceRef] = useKeenSlider({
         slides: {
@@ -46,7 +47,7 @@ export function Slider({ notices }: NoticeProps) {
                 {/* Map de notícias */}
                 {notices.map((notice) => {
                     /* Pegando o conteúdo da notícia e formatando corretamente */
-                    const description = getText({
+                    const description = GetText({
                         content: notice.content,
                         quantity: 1,
                         initial: 0,

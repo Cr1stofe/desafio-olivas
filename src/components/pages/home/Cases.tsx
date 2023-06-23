@@ -8,7 +8,6 @@ export async function Cases() {
     const notices: Notice[] = await fetch('https://www.olivas.digital/wp-json/wp/v2/posts?categories=373')
         .then(response => response.json())
 
-
     return (
         /* Container principal */
         <div className="p-16 md:p-24">
