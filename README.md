@@ -13,23 +13,24 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - React Hooks
 - Radix UI
 
-Para rodar esse projeto na sua máquina, você precisa:
+##
+# Para rodar esse projeto na sua máquina, você precisa:
 
-## 1 -- Abrir o terminal do seu VS Code ou plataforma equivalente.
+### 1 -- Abrir o terminal do seu VS Code ou plataforma equivalente.
 
-## 2 -- Executar o seguinte comando:
+### 2 -- Executar o seguinte comando:
 
 ```
   git clone https://github.com/Cr1stofe/desafio-olivas.git
 ```
 
-## 3 -- Agora, abrindo o projeto no seu editor de código, execute este comando no terminal:
+### 3 -- Agora, abrindo o projeto no seu editor de código, execute este comando no terminal:
 
 ```
   npm i
 ```
 
-## 4 -- Espere terminar de instalar as dependências, e ao finalizar, execute:
+### 4 -- Espere terminar de instalar as dependências, e ao finalizar, execute:
 
 ```
   npm run dev
