@@ -35,3 +35,18 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ```
   npm run dev
 ```
+
+
+### Considerações sobre Navbar 
+
+### A barra de navegação apresentava muitos items, como você pode ver na imagem abaixo. E isso era um problema, pois devido a grande quantidade de items, mesmo a tela com um tamanho relativamente grande ainda assim havia problemas com a responsividade.
+
+-------------------
+<img src="https://github.com/Cr1stofe/desafio-olivas/blob/980acc851a52e69ab132a12ac5c1ee9dddc265f0/public/githubImages/Tela2.png" />
+
+
+### Para solucionar o problema, resolvi criar três modelos de navbar, que alternam dependendo do tamanho da tela.
+### Para telas médias, resolvi manter as coisas mais importantes à vista. Sendo essas o botão de contato, o de pesquisa e as soluções oferecidas. Assim, deixando as outras recolhidas, economizando muito espaço.
+
+-------------------
+<img src="https://github.com/Cr1stofe/desafio-olivas/blob/980acc851a52e69ab132a12ac5c1ee9dddc265f0/public/githubImages/Tela2.png" />
