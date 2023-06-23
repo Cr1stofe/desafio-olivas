@@ -49,4 +49,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ### Para telas médias, resolvi manter as coisas mais importantes à vista. Sendo essas o botão de contato, o de pesquisa e as soluções oferecidas. Assim, deixando as outras recolhidas, economizando muito espaço.
 
 -------------------
-<img src="https://github.com/Cr1stofe/desafio-olivas/blob/980acc851a52e69ab132a12ac5c1ee9dddc265f0/public/githubImages/Tela2.png" />
+<img src="https://github.com/Cr1stofe/desafio-olivas/blob/86edf41540a716bd09106802c2b96b5d91fa3312/public/githubImages/Tela1.png" />
+
+
+### E por último, todas as opções recolhidas, para telas pequenas.
+
+-------------------
+<img src="https://github.com/Cr1stofe/desafio-olivas/blob/980acc851a52e69ab132a12ac5c1ee9dddc265f0/public/githubImages/Tela3.png" />
