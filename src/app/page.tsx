@@ -8,7 +8,8 @@ import { TopNews } from "@/components/pages/home/TopNews";
 
 export default function Home() {
   return (
-    <div>
+    /* Container principal da página */
+    <div className="overflow-hidden">
       <Navbar />
       <Hero />
       <ForYou />

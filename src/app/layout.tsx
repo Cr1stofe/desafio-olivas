@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon.ico'/>
       </head>
-      <body className={noto.className}>{children}</body>
+      <body className={`${noto.variable} font-sans`}>{children}</body>
     </html>
   )
 }

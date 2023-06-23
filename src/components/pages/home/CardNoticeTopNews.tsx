@@ -9,12 +9,15 @@ export function CardNoticeTopNews({ notice }: NoticeProps) {
     return (
         /* Container Principal */
         <div className="flex flex-col items-start pt-4 gap-2 border-t-[1px] border-gray-50 cursor-pointer">
+            {/* Data noticia */}
             <p className="text-base text-gray-50">
                 {format(new Date(notice.date), 'dd/MM/yyyy')}
             </p>
+            {/* Tag Blog */}
             <div className="flex items-center justify-center px-8 py-1 text-xs font-bold text-gray-50 bg-gradient-to-r from-blue-300 to-blue-500 rounded-3xl">
                 BLOG
             </div>
+            {/* Titulo noticia */}
             <p className="text-lg font-semibold text-gray-50">
                 {notice.title.rendered}
             </p>
